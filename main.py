@@ -16,7 +16,7 @@ def send_welcome(message: Message):
     """ Handles the /start command by sending a "Hello world!" message in response. """
     chat_id = message.chat.id
     bot.send_message(chat_id, "Hello! 🍡 Send me a message and I'll echo it back to you")
-
+print("🚀 الكود هذا اشتغل فعليًا داخل Railway")
 
 @bot.message_handler(func=lambda message: True)
 def echo_message(message: Message):
